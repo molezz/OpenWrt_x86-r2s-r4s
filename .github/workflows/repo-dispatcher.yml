@@ -19,7 +19,12 @@ on:
       version:
         description: 'Version'
         required: false
-        default: ''
+        default: 'Rpi-4B'
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'true'
+
 
 env:
   REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
