@@ -19,11 +19,7 @@ on:
       version:
         description: 'Version'
         required: false
-        default: 'Rpi-4B'
-      ssh:
-        description: 'SSH connection to Actions'
-        required: false
-        default: 'true'
+        default: ''
 
 
 env:
